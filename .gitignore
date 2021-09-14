@@ -1,6 +1,11 @@
 # The canonical out-of-tree build subdirectory
 build
 
+# but not ignore
+
+/Build/bin/Debug-windows-x86_64
+/Build/bin/Release-windows-x86_64
+
 # Visual Studio clutter
 _ReSharper*
 *.sdf
@@ -11,7 +16,6 @@ _ReSharper*
 .vs
 CMakeSettings.json
 Win32
-x64
 Debug
 Release
 MinSizeRel
