@@ -1,32 +1,44 @@
-# Prerequisites
-*.d
+# The canonical out-of-tree build subdirectory
+build
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio clutter
+_ReSharper*
+*.sdf
+*.suo
+*.dir
+*.vcxproj*
+*.sln
+.vs
+CMakeSettings.json
+Win32
+x64
+Debug
+Release
+MinSizeRel
+RelWithDebInfo
+*.opensdf
 
-# Precompiled Headers
-*.gch
-*.pch
+# Xcode clutter
+DxTK.build
+DxTK.xcodeproj
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# macOS clutter
+.DS_Store
 
-# Fortran module files
-*.mod
-*.smod
+# Makefile generator clutter
+Makefile
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Ninja generator clutter
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
 
-# Executables
-*.exe
-*.out
-*.app
+# CMake clutter
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+cmake_install.cmake
+cmake_uninstall.cmake
