@@ -25,6 +25,7 @@
 #include <cstddef>
 #include <cstdint>
 
+#pragma comment(lib,"uuid.lib")
 
 namespace DirectX
 {

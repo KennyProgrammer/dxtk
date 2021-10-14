@@ -36,7 +36,23 @@ project "DxTK"
 			"Inc/DirectXHelpers.cpp",
 			"Inc/LoaderHelpers.h",
 			"Inc/PlatformHelpers.h",
-			"Inc/WICTextureLoader.cpp"
+			"Inc/WICTextureLoader.cpp",
+			"Inc/DirectXTexP.h",
+			"Inc/DirectXTexD3D11.cpp",
+			"Inc/DirectXTex.inl",
+			"Inc/DirectXTex.h",
+			"Inc/DirectXTexImage.cpp",
+			"Inc/DirectXTexWIC.cpp",
+			"Inc/DirectXTexConvert.cpp",
+			"Inc/DirectXTexUtils.cpp",
+			"Inc/DirectXTexMipmaps.cpp",
+			"Inc/DirectXTexCompress.cpp",
+			"Inc/BC.h",
+			"Inc/BC.cpp",
+			"Inc/BC4BC5.cpp",
+			"Inc/BC6HBC7.cpp",
+			"Inc/scoped.h",
+			"Inc/filters.h"
 		}
 
 		defines 

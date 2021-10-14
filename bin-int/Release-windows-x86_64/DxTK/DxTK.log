@@ -1,0 +1,7 @@
+﻿  DDSTextureLoader.cpp
+  DirectXHelpers.cpp
+C:\Force\ForceEngine\Libraries\dxtk\Inc\DirectXHelpers.cpp(50): warning C4700: uninitialized local variable 'byteCodeLength' used
+C:\Force\ForceEngine\Libraries\dxtk\Inc\DirectXHelpers.cpp(50): warning C4700: uninitialized local variable 'shaderByteCode' used
+  WICTextureLoader.cpp
+  pch.cpp
+  DxTK.vcxproj -> C:\Force\ForceEngine\Libraries\dxtk\bin\Release-windows-x86_64\DxTK\DxTK.lib
