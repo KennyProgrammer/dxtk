@@ -52,7 +52,8 @@ project "DxTK"
 			"Inc/BC4BC5.cpp",
 			"Inc/BC6HBC7.cpp",
 			"Inc/scoped.h",
-			"Inc/filters.h"
+			"Inc/filters.h",
+			"Inc/d3dx12.h"
 		}
 
 		defines 
