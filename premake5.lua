@@ -1,30 +1,26 @@
+--
+-- Main Premake5 file for building Windows DirectX Toolkit project.
+-- Copyright (c) 2020-2022 by Danil (Kenny) Dukhovenko, All rights reserved.
+-- 
+-- Linking: dxguid.lib in Force Engine solution Premake5.lua file.
+--
+
+-- Windows DirectX Toolkit C++ Project
 project "DxTK"
 	kind "StaticLib"
 	language "C++"
 	staticruntime "on"
-
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 	
-	files
-	{
-	}
-	
-	includedirs
-	{
+	includedirs {
 		"%{prj.dir}/Inc"
 	}
 	
-	links
-	{
-		"Lib/x64/dxguid.lib"
-	}
-
 	filter "system:windows"
 		systemversion "latest"
 
-		files
-		{
+		files {
 			"Inc/DDSTextureLoader.h",
 			"Inc/DirectXHelpers.h",
 			"Inc/Effects.h",
@@ -56,8 +52,7 @@ project "DxTK"
 			"Inc/d3dx12.h"
 		}
 
-		defines 
-		{ 
+		defines { 
 			"_CRT_SECURE_NO_WARNINGS"
 		}
 

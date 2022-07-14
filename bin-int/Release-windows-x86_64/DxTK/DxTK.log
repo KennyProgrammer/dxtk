@@ -1,11 +1,1 @@
-﻿  BC.cpp
-  BC4BC5.cpp
-  BC6HBC7.cpp
-  DirectXTexCompress.cpp
-  DirectXTexConvert.cpp
-  DirectXTexD3D11.cpp
-  DirectXTexImage.cpp
-  DirectXTexMipmaps.cpp
-  DirectXTexUtils.cpp
-  DirectXTexWIC.cpp
-  DxTK.vcxproj -> C:\Force\ForceEngine\Libraries\dxtk\bin\Release-windows-x86_64\DxTK\DxTK.lib
+﻿  DxTK.vcxproj -> C:\Force\ForceEngine\Libraries\dxtk\bin\Release-windows-x86_64\DxTK\DxTK.lib
